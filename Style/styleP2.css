@@ -1,12 +1,25 @@
 
+*{
+    padding:0;
+    margin:0;
+}
+
+p{
+    margin: 28px 20px 0 82px;
+    padding: 0 8px 0 8px;
+    font-size: 18px;
+}
+
 a{
     text-decoration: none;
     color:#589e50;
+    font-weight: bold;
 }
 
 a:hover{
-    color:white;
-    text-decoration: underline;
+    color:#589e50;
+    text-decoration: underline #d5d5d5;
+    /*border-bottom: 1px solid;*/
 }
 
 .comillas{
@@ -14,17 +27,127 @@ list-style-image: url() ;
 }
 
 .bloque{
- margin-top: 0.4em;
+ margin-top: 10px;
  font-family: Georgia, serif;
  font-style: italic;
- font-size: 2.4em;
-
+ font-size: 5px;
 }
 
-.body{
-    font-size: 62.5%;
+.container{
     font-family: Arial,Helvetica,sans-serif;
-    line-height: 1;
+    line-height: 1.5;
+    padding-left: 12.5%;
+    padding-right: 50%;
 }
+
+.leftside{
+    display: inline-block;
+    width: 46.6%;
+    font-weight: bold;
+}
+
+.rightside{
+    display: table-column;
+    margin-right: 0mm;
+}
+
+
+.backgroundimage{
+    width: 100%;
+}
+
+.item{
+    margin: 0px 20px 0 110px;
+    padding: 0 8px 0 8px;
+    font-size: 18px;    
+}
+
+.image{
+    width: 100%;
+}
+
+.imageFooter{
+    background-color:#f1f1ef; 
+    width: 100%;
+   
+}
+
+.imageFooter p{
+    padding: 0;
+    margin: 0;
+  }
+
+.header1{
+    width: 100%;
+    height: 500px;
+    position:relative;
+    background-image: url("../Assets/pic1P2.jpg");
+}
+ #travel{
+     position:absolute;
+     color: white;
+     font-size: 40px;
+     font-family:Arial Helvetica;
+     top: 25px;
+     left: 50px;
+     margin: 28px 20px 0 82px;
+     padding: 0 8px 0 150px;   
+ }
+
+ #travel:hover{
+     color:white;
+     text-decoration: none;
+ }
+
+ .header3{
+    position:absolute;
+    color: white;
+    font-size: 50px;
+    left: 50px;
+    bottom: 50px; 
+    margin: 26px 20px 0 80px;
+    padding-left: 10%;
+    padding-right: 40%;
+}
+
+
+.container1{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin: 26px 20px 0 80px;
+    padding: 0 8px 0 8px;
+}
+
+.container2{
+    margin: 26px 20px 0 80px;
+    padding: 0 8px 0 8px;
+    font-size: 1em;
+       
+}
+
+.container3{
+    margin: 26px 20px 0 80px;
+    padding: 0 8px 0 8px;
+    font-size: 1em;
+    font-size: small;
+}
+
+.newsP1{
+    font-family: Helvetica, sans-serif;
+    line-height: 3;
+    padding-right: 20px;
+    padding-bottom:10px;
+    padding-left: 280px;
+    font-size: 15px;
+}
+
+.news{
+    color:red;
+}
+
+
+
 
 

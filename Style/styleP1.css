@@ -1,4 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    font-family: Helvetica, sans-serif;
+    line-height: 1.6;
+    padding-left: 12.5%;
+    padding-right: 35%;
+    font-size: 19px;
+    }
+
+.container1{
+    font-size: .85em;
+    line-height: 1.6;
+    padding-bottom: 40px ;
+    
+}
 
 a{
     text-decoration: none;
+    color:#006598;
+}
+
+a:hover{
+    color:red;   
+}
+
+.image{
+    width: 53%;
+    padding-top: 16px; 
+    padding-left: 12.5%;
+    
+}
+
+.header1{
+    width: 54%;
+    padding-left: 16%;   
+
+}
+.header2{
+    font-family: Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 2.66667rem;
+    line-height: 1.15;
+    margin:10px;
+    width: 70%;
+    padding-left: 11.8%;
+}
+.header3{
+    width: 55%;
+    padding-left: 12.5%;
+    text-decoration: none;
+}
+
+.nombre{
+    color:#006598;
+    font-weight: bold;
+}
+
+.header4{
+    font-family: Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1.06667rem;
+    line-height: 1.5;
+    width: 53%;
+    padding-left: 12.5%;
+
+}
+
+.newsP2{
+    font-family: Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 2% 35% 0% 12.5%;
+    /*padding-top: 2%;
+    padding-left: 12.5%;
+    padding-right: 35%;*/
+    font-size: 20px;
+}
+
+.news{
+    color:red;
 }
